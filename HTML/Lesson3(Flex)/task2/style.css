@@ -1,0 +1,45 @@
+.main{
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    background: bisque;
+    box-sizing: border-box;
+    height: 150px;
+    width: 100%;
+}
+
+.page{
+    display: flex;
+    flex-direction: row;
+    margin: 10px 0;
+}
+
+.menu{
+    background: bisque;
+    box-sizing: border-box;
+    margin-right: 10px;
+    height: 600px;
+    width: 20%;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.post{
+    box-sizing: border-box;
+    background: bisque;
+    margin-bottom: 10px;
+    height: 295px;
+    width: 100%;
+}
+
+.footer{
+    background: bisque;
+    height: 150px;
+    width: 100%;
+}

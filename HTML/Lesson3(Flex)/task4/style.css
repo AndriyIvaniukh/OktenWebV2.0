@@ -1,0 +1,47 @@
+.main{
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    background: blue;
+    height: 150px;
+    width: 100%;
+}
+
+.page{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.nav{
+    background: blueviolet;
+    height: 120px;
+    width: 100%;
+}
+
+
+.info{
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+}
+
+.partOne{
+    background: aqua;
+    height: 400px;
+    width: 70%;
+}
+
+.partTwo{
+    background: cornflowerblue;
+    height: 400px;
+    width: 30%;
+}
+
+.footer{
+    background: #5a1778;
+    height: 150px;
+    width: 100%;
+}
