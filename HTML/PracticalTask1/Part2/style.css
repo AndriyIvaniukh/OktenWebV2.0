@@ -1,0 +1,44 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    margin: 0 auto;
+    row-gap: 10px;
+}
+
+.header{
+    background: bisque;
+    height: 150px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.page{
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+}
+
+.info{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 620px;
+    height: 400px;
+    row-gap: 10px;
+    column-gap: 10px;
+}
+
+.box{
+    background: bisque;
+    height: 200px;
+    width: 200px;
+    box-sizing: border-box;
+}
+
+.menu{
+    background: bisque;
+    height: 410px;
+    width: 370px;
+
+}

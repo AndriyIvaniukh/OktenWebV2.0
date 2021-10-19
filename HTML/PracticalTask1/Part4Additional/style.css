@@ -1,0 +1,79 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    width: 800px;
+    margin: 0 auto;
+}
+
+.header{
+    background: bisque;
+    height: 150px;
+    width: 800px;
+}
+
+.pagePartOne{
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+}
+
+.pagePartOneLeft{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.pagePartOneLeftTop{
+    background: bisque;
+    height: 300px;
+    width: 300px;
+}
+
+.pagePartOneLeftBottom{
+    background: bisque;
+    height: 400px;
+    width: 300px;
+}
+
+.pagePartOneRight{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.pagePartOneRightTop{
+    background: bisque;
+    height: 490px;
+    width: 490px;
+}
+
+.pagePartOneRightBottom{
+    background: bisque;
+    height: 210px;
+    width: 490px;
+}
+
+.pagePartTwo{
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+}
+
+.pagePartTwoLeft{
+    background: bisque;
+    height: 200px;
+    width: 550px;
+}
+
+.pagePartTwoRight{
+    background: bisque;
+    height: 200px;
+    width: 240px;
+}
+
+.footer{
+    background: bisque;
+    height: 150px;
+    width: 800px;
+}

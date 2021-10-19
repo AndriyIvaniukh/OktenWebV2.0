@@ -1,0 +1,366 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.header{
+    display: flex;
+    background: gainsboro;
+    box-sizing: border-box;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+.hOne{
+    display: flex;
+    width: 200px;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle{
+    background: silver;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.hTwo{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    column-gap: 40px;
+    padding: 55px;
+    box-sizing: border-box;
+    align-items: flex-end;
+}
+
+.hTButton{
+    background: silver;
+    width: 130px;
+    height: 35px;
+    border-radius: 15px;
+}
+
+.blockOne{
+    display: flex;
+    background: gainsboro;
+    flex-direction: column;
+    padding: 100px 40px;
+    justify-content: center;
+    align-items: center;
+    row-gap: 20px;
+}
+
+.bOTop{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    align-items: center;
+}
+
+.bOTFirst{
+    background: #bdbdbd;
+    width: 400px;
+    height: 60px;
+    border-radius: 10px;
+}
+
+.bOTSecond{
+    background: #bdbdbd;
+    width: 500px;
+    height: 60px;
+    border-radius: 10px;
+}
+
+.bOBottom{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 160px;
+    width: 1000px;
+    box-sizing: border-box;
+}
+
+.bOBLeft{
+    background: white;
+    width: 550px;
+    height: 80px;
+    border-radius: 50px;
+}
+
+.bOBRight{
+    background: silver;
+    width: 290px;
+    height: 100px;
+    border-radius: 50px;
+    position: absolute;
+    right: 400px;
+}
+
+.blockTwo{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 80px;
+    align-items: center;
+    width: 1000px;
+    row-gap: 15px;
+}
+
+.bTPartOne{
+    background: silver;
+    width: 600px;
+    height: 60px;
+    border-radius: 35px;
+}
+
+.bTPartTwo{
+    background: #dadada;
+    width: 450px;
+    height: 40px;
+    border-radius: 35px;
+}
+
+.bTPartThree{
+    background: #dadada;
+    width: 350px;
+    height: 30px;
+    border-radius: 35px;
+}
+
+.blockThree{
+    background: white;
+    display: flex;
+    flex-direction: row;
+    row-gap: 20px;
+    column-gap: 20px;
+    width: 1000px;
+    flex-wrap: wrap;
+}
+
+
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: silver;
+    width: 320px;
+    height: 250px;
+    row-gap: 10px;
+}
+
+.bigBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: silver;
+    row-gap: 10px;
+    width: 660px;
+    height: 250px;
+}
+
+.boxLineOne{
+    background: gray;
+    height: 30px;
+    width: 140px;
+    border-radius: 25px;
+}
+
+.boxLineTwo{
+    background: gray;
+    height: 30px;
+    width: 100px;
+    border-radius: 25px;
+}
+
+.bigBoxLineOne{
+    background: gray;
+    height: 30px;
+    width: 280px;
+    border-radius: 25px;
+}
+
+.bigBoxLineTwo{
+    background: gray;
+    height: 30px;
+    width: 200px;
+    border-radius: 25px;
+}
+
+.blockFour{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 40px;
+    background: white;
+    width: 1000px;
+}
+
+.bFTop{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 15px;
+    padding: 80px;
+    box-sizing: border-box;
+}
+
+.bFTBoxOne{
+    background: gray;
+    width: 600px;
+    height: 60px;
+    border-radius: 25px;
+}
+
+.bFTBoxTwo{
+    background: silver;
+    width: 450px;
+    height: 40px;
+    border-radius: 25px;
+}
+
+.bFTBoxThree{
+    background: silver;
+    width: 350px;
+    height: 40px;
+    border-radius: 25px;
+}
+
+.bFBottom{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.bFBInfo{
+    display: flex;
+    column-gap: 20px;
+}
+
+.bFBILeft{
+    background: silver;
+    width: 250px;
+    height: 200px;
+    border-radius: 5px;
+}
+
+.bFBIRight{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    box-sizing: border-box;
+    padding: 15px;
+    justify-content: space-between;
+}
+
+.bFBIRTop{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+bFBIRBottom{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+.bFBIROptionOne{
+    background: gray;
+    width: 250px;
+    height: 40px;
+    border-radius: 15px;
+}
+
+.bFBIROptionTwo{
+    background: gray;
+    width: 180px;
+    height: 20px;
+    border-radius: 15px;
+}
+
+.bFBIROptionThree{
+    background: silver;
+    width: 140px;
+    height: 10px;
+    border-radius: 15px;
+}
+
+.bFBIROptionFour{
+    background: gray;
+    width: 140px;
+    height: 20px;
+    border-radius: 15px;
+}
+
+.blockFive{
+    display: flex;
+    column-gap: 10px;
+    width: 1000px;
+    box-sizing: border-box;
+    padding: 60px 80px;
+    background: gainsboro;
+}
+
+.bFLeft{
+    display: flex;
+    justify-content: space-between;
+    width: 650px;
+    column-gap: 20px;
+}
+
+.bFLBox{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.bFLBDescription{
+    background: gray;
+    width: 150px;
+    height: 20px;
+}
+
+.bFLBInfo{
+    display: flex;
+    flex-direction: column;
+    row-gap: 7px;
+}
+
+.bFLBILine{
+    background: silver;
+    width: 120px;
+    height: 15px;
+}
+
+.bFRight{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    box-sizing: border-box;
+    padding-left: 40px;
+}
+
+.bFRTop{
+    background: gray;
+    width: 130px;
+    height: 35px;
+}
+
+.bFRBottom{
+    display: flex;
+    column-gap: 10px;
+    justify-content: center;
+}
+
+.fCircle{
+    background: silver;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}

@@ -1,0 +1,50 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.header{
+    background: bisque;
+    height: 150px;
+    width: 100%;
+    margin: 10px 0;
+    box-sizing: border-box;
+}
+
+.page{
+    display: flex;
+    flex-direction: row;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    width: 650px;
+}
+
+.topPart{
+    height: 200px;
+    background: bisque;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+.bottomPart{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.box{
+    height: 200px;
+    width: 200px;
+    background: bisque;
+}
+
+.menu{
+    background: bisque;
+    height: 410px;
+    width: 350px;
+    margin-left: 10px;
+    box-sizing: border-box;
+}

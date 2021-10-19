@@ -1,0 +1,171 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.header{
+    background: silver;
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    width: 1000px;
+    box-sizing: border-box;
+    padding: 25px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hButton{
+    background: gray;
+    width: 150px;
+    height: 60px;
+}
+
+.page{
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+}
+
+.menu{
+    background: silver;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    width: 200px;
+    box-sizing: border-box;
+    padding: 25px;
+    /*justify-content: center;*/
+}
+
+.mButton{
+    background: gray;
+    width: 150px;
+    height: 60px;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.partOne{
+    background: silver;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 790px;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.pOneButton{
+    background: gray;
+    width: 750px;
+    height: 360px;
+}
+
+.partTwo{
+    background: silver;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 20px;
+    height: 200px;
+}
+
+.pTwoButton{
+    background: gray;
+    height: 140px;
+    width: 170px;
+}
+
+.partThree{
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+}
+
+.partThreeLeft{
+    display: flex;
+    flex-direction: column;
+}
+
+.partThreeLeftTop{
+    background: silver;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    row-gap: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+    width: 570px;
+}
+
+.pTLButton{
+    background: gray;
+    height: 130px;
+    width: 255px;
+}
+
+.partThreeLeftBottom{
+    background: silver;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.pTLBButton{
+    background: gray;
+    width: 120px;
+    height: 40px;
+}
+
+.partThreeRight{
+    background: silver;
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 20px;
+    width: 210px;
+}
+
+.pTRButton{
+    background: gray;
+    height: 100px;
+    width: 170px;
+}
+
+.partFour{
+    background: silver;
+    box-sizing: border-box;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    align-items: center;
+}
+
+.partFourTop{
+    background: gray;
+    height: 50px;
+    width: 750px;
+}
+
+.partFourBottom{
+    background: gray;
+    height: 50px;
+    width: 200px;
+}
