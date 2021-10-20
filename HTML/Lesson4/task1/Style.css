@@ -1,0 +1,32 @@
+.colorSilver{
+    background: silver;
+}
+
+.h200{
+    height: 200px;
+}
+
+.h400{
+    height: 400px;
+}
+
+.w690{
+    width: 690px;
+}
+
+.w300{
+    width: 300px;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.mainPage{
+    display: flex;
+    column-gap: 10px;
+}

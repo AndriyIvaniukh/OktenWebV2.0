@@ -1,0 +1,39 @@
+.bgGreen{
+    background: greenyellow;
+}
+
+.bgYellow{
+    background: yellow;
+}
+
+.h150{
+    height: 150px;
+}
+
+.h300{
+    height: 300px;
+    width: 690px;
+    background: deepskyblue;
+}
+
+.h610{
+    height: 610px;
+    width: 300px;
+    background: pink;
+}
+
+.flexRow{
+    display: flex;
+    column-gap: 10px;
+}
+
+.flexColumn{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.main{
+    width: 1000px;
+    margin: 0 auto;
+}

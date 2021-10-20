@@ -1,0 +1,28 @@
+.h250{
+    height: 300px;
+    background: blue;
+}
+
+.h500{
+    height: 500px;
+    background: blue;
+}
+
+.h200{
+    width: 260px;
+    height: 250px;
+    background: darkblue;
+}
+
+.flexRow{
+    display: flex;
+    justify-content: space-between;
+}
+
+.flexColumn{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    width: 800px;
+    margin: 0 auto;
+}
