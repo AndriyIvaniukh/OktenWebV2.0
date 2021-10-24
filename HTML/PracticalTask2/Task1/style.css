@@ -1,0 +1,88 @@
+body{
+    width: 1000px;
+    margin: 0 auto;
+}
+.box{
+    height: 180px;
+    width: 180px;
+    border-radius: 20px;
+    background: #172c41;
+}
+
+.circle{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background: #ccd6e1;
+}
+
+.flexRow{
+    display: flex;
+}
+
+.flexColumn{
+    display: flex;
+    flex-direction: column;
+}
+
+.bgBlue{
+    background: #172c41;
+}
+
+.bgSilver{
+    background: #ccd6e1;
+}
+
+.topBorder{
+    margin: 10px auto;
+    width: 900px;
+    border: 2px deepskyblue solid;
+    border-radius: 40px;
+    align-items: center;
+    justify-content:space-between;
+}
+
+.topBorderName{
+    margin: 30px;
+    width: 150px;
+    height: 30px;
+    border-radius: 40px;
+}
+
+.topBorderBoxes{
+    justify-content: space-between;
+    column-gap: 20px;
+    margin: 20px;
+}
+.topBorderBoxesBox{
+    row-gap: 10px;
+    align-items: center;
+}
+.topBorderBoxesDescription{
+    width: 170px;
+    height: 20px;
+    border-radius: 10px;
+}
+
+.bottom{
+    justify-content: center;
+}
+
+.bottomBox{
+    margin: 20px 0 40px;
+    row-gap: 10px;
+    align-items: center;
+    width: 270px;
+}
+
+.bottomBoxCircle{
+    margin: 20px;
+}
+
+.bottomBoxDescription{
+    width: 160px;
+    height: 20px;
+    border-radius: 10px ;
+}
+
+
