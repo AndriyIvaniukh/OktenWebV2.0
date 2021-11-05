@@ -122,7 +122,7 @@
     border-radius: 35px;
 }
 
-.partOneBorder{
+.partOneBorder {
     align-items: center;
     margin: 30px 100px;
     padding: 50px;
@@ -131,38 +131,38 @@
     border: 2px #00c3eb solid;
 }
 
-.partOneDescription{
+.partOneDescription {
     height: 40px;
     width: 100px;
     border-radius: 20px;
 }
 
-.partOneBoxes{
+.partOneBoxes {
     column-gap: 20px;
 }
 
-.partOneBoxesBox{
+.partOneBoxesBox {
     align-items: center;
     row-gap: 15px;
 }
 
-.partOneBoxesBoxImage{
+.partOneBoxesBoxImage {
     height: 150px;
     width: 150px;
     border-radius: 15px;
 }
 
-.partOneBoxesBoxDescription{
+.partOneBoxesBoxDescription {
     height: 15px;
     width: 120px;
     border-radius: 20px;
 }
 
-.partTwo{
+.partTwo {
     justify-content: center;
 }
 
-.partTwoBox{
+.partTwoBox {
     row-gap: 15px;
     align-items: center;
     justify-content: center;
@@ -170,37 +170,37 @@
     height: 400px;
 }
 
-.partTwoBoxCircle{
+.partTwoBoxCircle {
     height: 160px;
     width: 160px;
     border-radius: 50%;
     margin-bottom: 20px;
 }
 
-.partTwoBoxTitle{
+.partTwoBoxTitle {
     height: 15px;
     width: 150px;
     border-radius: 10px;
 }
 
-.partTwoBoxDescription{
+.partTwoBoxDescription {
     height: 10px;
     width: 160px;
     border-radius: 10px;
 }
 
-.partThree{
+.partThree {
     align-items: center;
     padding: 50px;
 }
 
-.partThreeTitle{
+.partThreeTitle {
     height: 40px;
     width: 180px;
     border-radius: 25px;
 }
 
-.partThreeBoxes{
+.partThreeBoxes {
     padding: 70px 50px;
     flex-wrap: wrap;
     column-gap: 25px;
@@ -208,66 +208,137 @@
     justify-content: space-between;
 }
 
-.partThreeBoxesBox{
+.partThreeBoxesBox {
     border: 2px solid #00c3eb;
     border-radius: 25px;
     width: 240px;
     height: 330px;
 }
 
-.partThreeBoxesBoxTop{
+.partThreeBoxesBoxTop {
     padding: 10px;
     row-gap: 15px;
 }
-.partThreeBoxesBoxTopImage{
+
+.partThreeBoxesBoxTopImage {
     width: 220px;
     height: 130px;
     border-radius: 30px;
 }
 
-.partThreeBoxesBoxTopTitleOne{
+.partThreeBoxesBoxTopTitleOne {
     width: 30px;
     height: 10px;
     border-radius: 10px;
 }
 
-.partThreeBoxesBoxTopTitleTwo{
+.partThreeBoxesBoxTopTitleTwo {
     margin: 5px 0;
     width: 170px;
     height: 15px;
     border-radius: 10px;
 }
 
-.partThreeBoxesBoxTopDescriptionOne{
+.partThreeBoxesBoxTopDescriptionOne {
     width: 160px;
     height: 10px;
     border-radius: 10px;
 }
 
-.partThreeBoxesBoxTopDescriptionTwo{
+.partThreeBoxesBoxTopDescriptionTwo {
     width: 200px;
     height: 10px;
     border-radius: 10px;
     margin-bottom: 20px;
 }
 
-.partThreeBoxesBoxBottom{
+.partThreeBoxesBoxBottom {
     border-top: 2px solid #00c3eb;
     justify-content: space-between;
     padding: 12px 25px;
 }
 
-.partThreeBoxesBoxBottomLeft{
+.partThreeBoxesBoxBottomLeft {
     width: 30px;
     height: 15px;
     border-radius: 10px;
 }
-.partThreeBoxesBoxBottomRight{
+
+.partThreeBoxesBoxBottomRight {
     column-gap: 10px;
 }
 
-.partThreeBoxesBoxBottomRightCircle{
+.partThreeBoxesBoxBottomRightCircle {
     height: 15px;
     width: 15px;
     border-radius: 50%;
 }
+
+.partFour {
+    justify-content: center;
+}
+
+.partFourLeft{
+    width: 420px;
+    height: 300px;
+    padding: 60px;
+    row-gap: 20px;
+    box-sizing: border-box;
+}
+
+.partFourRight{
+    width: 420px;
+    height: 300px;
+    padding: 60px;
+    row-gap: 20px;
+    box-sizing: border-box;
+}
+.partFourTitle {
+    width: 150px;
+    height: 20px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+.partFourDescriptionOne{
+    width: 250px;
+    height: 10px;
+    border-radius: 7px;
+}
+
+.partFourDescriptionTwo{
+    width: 230px;
+    height: 10px;
+    border-radius: 7px;
+}
+
+.partFourDescriptionThree{
+    width: 260px;
+    height: 10px;
+    border-radius: 7px;
+}
+
+.partFourButton{
+    box-sizing: border-box;
+    margin-top: 40px;
+    width: 130px;
+    height: 80px;
+    border-radius: 15px;
+}
+
+.footer{
+    justify-content: center;
+    column-gap: 20px;
+    align-items: center;
+}
+
+.foterbox{
+    height: 40px;
+    width: 40px;
+    border-radius: 10px;
+
+}
+
+
+
