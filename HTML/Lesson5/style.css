@@ -1,0 +1,368 @@
+.h70 {
+    height: 30px;
+}
+
+.h120 {
+    height: 120px;
+}
+
+.h450 {
+    height: 450px;
+}
+
+.h500 {
+    height: 500px;
+}
+
+.h900 {
+    height: 900px;
+}
+
+.bgLightBlue {
+    background: #00c3eb;
+}
+
+.bgSilver {
+    background: #c9d5e3;
+}
+
+.bgBlue {
+    background: #172c41;
+}
+
+.pageSize {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.flexColumn {
+    display: flex;
+    flex-direction: column;
+}
+
+.flexRow {
+    display: flex;
+}
+
+.headerIcons {
+    justify-content: flex-end;
+    align-items: flex-end;
+    column-gap: 15px;
+    padding-bottom: 30px;
+    padding-right: 120px;
+}
+
+.headerIconsIcon {
+    height: 7px;
+    width: 35px;
+    border-radius: 15px;
+}
+
+.headerMenu {
+    padding-right: 120px;
+    padding-bottom: 20px;
+    padding-left: 120px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headerMenuButton {
+    width: 200px;
+    height: 80px;
+    border-radius: 35px;
+}
+
+.headerMenuButtons {
+    column-gap: 20px;
+    padding-top: 50px;
+
+}
+
+.headerMenuButtonsButton {
+    height: 10px;
+    width: 50px;
+    border-radius: 15px;
+}
+
+.shortInfo {
+    align-items: center;
+    justify-content: center;
+    row-gap: 20px;
+}
+
+.shortInfoTitle {
+    height: 40px;
+    width: 350px;
+    border-radius: 20px;
+    margin-bottom: 15px;
+}
+
+.shortInfoDescriptionOne {
+    height: 20px;
+    width: 350px;
+    border-radius: 15px;
+}
+
+.shortInfoDescriptionTwo {
+    height: 20px;
+    width: 400px;
+    border-radius: 15px;
+}
+
+.shortInfoDescriptionThree {
+    height: 20px;
+    width: 120px;
+    border-radius: 15px;
+}
+
+.shortInfoButton {
+    margin-top: 25px;
+    height: 60px;
+    width: 110px;
+    border-radius: 35px;
+}
+
+.partOneBorder {
+    align-items: center;
+    margin: 30px 100px;
+    padding: 50px;
+    border-radius: 40px;
+    row-gap: 35px;
+    border: 2px #00c3eb solid;
+}
+
+.partOneDescription {
+    height: 40px;
+    width: 100px;
+    border-radius: 20px;
+}
+
+.partOneBoxes {
+    column-gap: 20px;
+}
+
+.partOneBoxesBox {
+    align-items: center;
+    row-gap: 15px;
+}
+
+.partOneBoxesBoxImage {
+    height: 150px;
+    width: 150px;
+    border-radius: 15px;
+}
+
+.partOneBoxesBoxDescription {
+    height: 15px;
+    width: 120px;
+    border-radius: 20px;
+}
+
+.partTwo {
+    justify-content: center;
+}
+
+.partTwoBox {
+    row-gap: 15px;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    height: 400px;
+}
+
+.partTwoBoxCircle {
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.partTwoBoxTitle {
+    height: 15px;
+    width: 150px;
+    border-radius: 10px;
+}
+
+.partTwoBoxDescription {
+    height: 10px;
+    width: 160px;
+    border-radius: 10px;
+}
+
+.partThree {
+    align-items: center;
+    padding: 50px;
+}
+
+.partThreeTitle {
+    height: 40px;
+    width: 180px;
+    border-radius: 25px;
+}
+
+.partThreeBoxes {
+    padding: 70px 50px;
+    flex-wrap: wrap;
+    column-gap: 25px;
+    row-gap: 30px;
+    justify-content: space-between;
+}
+
+.partThreeBoxesBox {
+    border: 2px solid #00c3eb;
+    border-radius: 25px;
+    width: 240px;
+    height: 330px;
+}
+
+.partThreeBoxesBoxTop {
+    padding: 10px;
+    row-gap: 15px;
+}
+
+.partThreeBoxesBoxTopImage {
+    width: 220px;
+    height: 130px;
+    border-radius: 30px;
+}
+
+.partThreeBoxesBoxTopTitleOne {
+    width: 30px;
+    height: 10px;
+    border-radius: 10px;
+}
+
+.partThreeBoxesBoxTopTitleTwo {
+    margin: 5px 0;
+    width: 170px;
+    height: 15px;
+    border-radius: 10px;
+}
+
+.partThreeBoxesBoxTopDescriptionOne {
+    width: 160px;
+    height: 10px;
+    border-radius: 10px;
+}
+
+.partThreeBoxesBoxTopDescriptionTwo {
+    width: 200px;
+    height: 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.partThreeBoxesBoxBottom {
+    border-top: 2px solid #00c3eb;
+    justify-content: space-between;
+    padding: 12px 25px;
+}
+
+.partThreeBoxesBoxBottomLeft {
+    width: 30px;
+    height: 15px;
+    border-radius: 10px;
+}
+
+.partThreeBoxesBoxBottomRight {
+    column-gap: 10px;
+}
+
+.partThreeBoxesBoxBottomRightCircle {
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+}
+
+.partFour {
+    justify-content: center;
+}
+
+.partFourLeft{
+    width: 420px;
+    height: 300px;
+    padding: 60px;
+    row-gap: 20px;
+    box-sizing: border-box;
+}
+
+.partFourRight{
+    width: 420px;
+    height: 300px;
+    padding: 60px;
+    row-gap: 20px;
+    box-sizing: border-box;
+}
+.partFourTitle {
+    width: 150px;
+    height: 20px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+.partFourDescriptionOne{
+    width: 250px;
+    height: 10px;
+    border-radius: 7px;
+}
+
+.partFourDescriptionTwo{
+    width: 230px;
+    height: 10px;
+    border-radius: 7px;
+}
+
+.partFourDescriptionThree{
+    width: 260px;
+    height: 10px;
+    border-radius: 7px;
+}
+
+.partFourButton{
+    box-sizing: border-box;
+    margin-top: 40px;
+    width: 130px;
+    height: 80px;
+    border-radius: 15px;
+}
+
+.footer{
+    justify-content: center;
+    column-gap: 20px;
+    align-items: center;
+}
+
+.foterbox{
+    height: 40px;
+    width: 40px;
+    border-radius: 10px;
+
+}
+
+
+.headerNavBar span{
+    background: white;
+    height: 8px;
+    width: 50px;
+    position: relative;
+    display: none;
+}
+
+
+.headerNavBar span::before, .headerNavBar span::after{
+    content: "";
+    background: white;
+    height: 7px;
+    width: 50px;
+    position: absolute;
+    display: block;
+}
+
+.headerNavBar span::before{
+    bottom: 15px;
+}
+
+.headerNavBar span::after{
+    top: 15px;
+}

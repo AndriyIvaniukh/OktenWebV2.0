@@ -1,0 +1,72 @@
+@media screen and (max-width: 400px){
+    .pageSize {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .headerIcons{
+        display: none;
+    }
+
+    .headerMenu{
+        justify-content: space-between;
+        padding: 0 20px;
+    }
+
+    .headerMenuButton{
+        width: 100px;
+        height: 60px;
+    }
+    .headerMenuButtons{
+        display: none;
+    }
+
+    .headerNavBar span{
+        display: inline-block;
+    }
+
+    .shortInfoTitle{
+        width: 70%;
+    }
+
+    .shortInfoDescriptionOne{
+        width: 75%;
+    }
+
+    .shortInfoDescriptionTwo{
+     width: 80%;
+    }
+    .partOne{
+        height: auto;
+    }
+
+    .partOneBorder{
+       margin: 40px 15%;
+    }
+
+    .partOneBoxes{
+     flex-direction: column;
+        row-gap: 20px;
+
+    }
+
+    .partTwo{
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .partTwoBox{
+        height: 300px;
+    }
+
+    .partThree{
+        height: auto;
+    }
+
+    .partFour{
+        height: auto;
+        flex-direction: column;
+    }
+
+
+}
