@@ -68,5 +68,12 @@
         flex-direction: column;
     }
 
+    .partFourLeft{
+        width: 100%;
+    }
+
+    .partFourRight{
+        width: 100%;
+    }
 
 }
