@@ -1,0 +1,94 @@
+.bg-light{
+    background-color: white;
+}
+
+.navbar-nav li{
+    margin: 0 7px;
+    border: 2px solid transparent;
+}
+
+
+.navbar-nav li:hover{
+    mix-blend-mode: multiply;
+    border: 2px solid #EAEDF5;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+.firstPartRight img{
+    width: 100%;
+}
+.firstPartLeft h2{
+    margin-bottom: 40px;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 58px;
+    color: #1652AC;
+}
+
+.firstPartLeft p{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 32px;
+    color: #020303;
+}
+
+.secondPartLeft img{
+    width: 100%;
+}
+.secondPartRight h2, .fourthPartLeft h2{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 40px;
+    color: #1652AC;
+}
+
+.secondPartRight p, .fourthPartLeft p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 32px;
+    color: #45494F;
+}
+
+.thirdPartLeft img{
+    width: 100%;
+}
+
+.thirdPartRight{
+    background: linear-gradient(180deg, #163DA2 0%, #003584 100%);
+}
+
+.thirdPartRightBox h2{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 40px;
+    color: #FBFDFF;
+}
+
+.thirdPartRightBox p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FBFDFF;
+}
+
+.fourthPartRight img{
+    width: 100%;
+}
+
+.fifthPart{
+    background: #FBFBFC;
+}
+
+.fifthPartCard{
+    height: 136px;
+    background: white;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 16px;
+}
