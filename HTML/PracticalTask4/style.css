@@ -92,3 +92,74 @@
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
     border-radius: 16px;
 }
+
+.sixthPart h2{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 40px;
+    color: #020303;
+}
+
+.sixthPart{
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 16px;
+}
+
+.sixthPart li{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 35px;
+    color: #45494F;
+}
+
+.sixthPart li span{
+    font-weight: bold;
+}
+
+.seventhPartTitle h2{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 40px;
+    color: #020303;
+}
+
+.left h2{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 43px;
+    color: #1652AC;
+}
+
+.left p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 32px;
+    color: #464C53;
+
+}
+
+.footerTop{
+    border-top: 2px solid silver;
+    border-bottom: 2px solid silver;
+}
+
+.box h3{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 32px;
+    color: #A3ADBA;
+}
+
+.box span{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 32px;
+    color: #9EABBB;
+}
