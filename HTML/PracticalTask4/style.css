@@ -126,6 +126,10 @@
     color: #020303;
 }
 
+.carousel-inner img{
+    width: 100%;
+}
+
 .left h2{
     font-style: normal;
     font-weight: bold;

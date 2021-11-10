@@ -8,12 +8,13 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
           integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
     <title>PracticalTask4 bootstrap</title>
 </head>
 <body>
-<div class="page container d-flex flex-column align-items-center ">
-    <div class="nav col-12">
-        <nav class="navbar navbar-expand-xl navbar-light border col-12 pe-5 ps-5">
+<div class="page container-lg container-fluid p-0 d-flex flex-column align-items-center ">
+    <div class="nav col-lg-12 col-12">
+        <nav class="navbar navbar-expand-xl navbar-light border col-12 pe-1 ps-1 pe-lg-5 ps-lg-5">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#"><img src="img/logo.png" alt="logo"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -74,23 +75,26 @@
             </div>
         </nav>
     </div>
-    <div class="firstPart d-flex">
-        <div class="firstPartLeft col-5 d-flex m ms-3 p-5 flex-column justify-content-center align-items-center">
+    <div class="firstPart d-flex flex-lg-row flex-column">
+        <div class="firstPartLeft col-12 flex-wrap col-lg-5 d-flex m ms-3 p-5 flex-column justify-content-center align-items-center">
             <h2>Luftkondensierte Kältemaschinen & Kaltwassersätze</h2>
+            <div class="firstPartRight d-block d-lg-none">
+                <img src="img/firstPhoto.png" alt="first photo">
+            </div>
             <p>Aufgrund der kompakten Bauart werden platzsparende luftkondensierte Kompressionskältemaschinen
                 (umgangsspr. „Kaltwassersätze“) vielseitig zur
                 Prozesskühlung und Gebäudeklimatisierung eingesetzt.
             </p>
         </div>
-        <div class="firstPartRight col-7">
+        <div class="firstPartRight d-lg-block d-none col-lg-7">
             <img src="img/firstPhoto.png" alt="first photo">
         </div>
     </div>
-    <div class="secondPart d-flex">
-        <div class="secondPartLeft col-6 ">
+    <div class="secondPart d-flex flex-lg-row flex-column">
+        <div class="secondPartLeft col-lg-6 col-12">
             <img src="img/secondPhoto.png" alt="first photo">
         </div>
-        <div class="secondPartRight col-5 d-flex m-2 p-5 flex-column  ">
+        <div class="secondPartRight col-lg-5 col-12 d-flex m-2 p-5 flex-column  ">
             <h2>ENERGIEEFFIZIENZ IM FOKUS</h2>
             <p>Bei der Anschaffung sollte deshalb besonders auf energieeffiziente Systeme geachtet werden, denn die
                 Betriebskosten der Anlage überschreiten
@@ -102,12 +106,12 @@
 
         </div>
     </div>
-    <div class="thirdPart d-flex">
-        <div class="thirdPartLeft col-4 ">
+    <div class="thirdPart d-flex flex-lg-row flex-column">
+        <div class="thirdPartLeft col-lg-4 col-12 ">
             <img src="img/thirdPhoto.png" alt="third photo">
         </div>
-        <div class="thirdPartRight col-8 d-flex flex-column align-items-center justify-content-center">
-            <div class="thirdPartRightBox col-5">
+        <div class="thirdPartRight col-lg-8 col-12 d-flex flex-column align-items-center justify-content-center">
+            <div class="thirdPartRightBox col-lg-5 col-10">
                 <h2>MODERNSTE STANDARDS</h2>
                 <p>Aktuelle Richtlinien und Verordnungen bezüglich des Kältemittel Phase-Downs müssen berücksichtigt
                     werden. Der langfristige Einsatz des Kältemittels muss sowohl nach ökonomischen als auch
@@ -123,9 +127,9 @@
 
         </div>
     </div>
-    <div class="fourthPart d-flex">
-        <div class="fourthPartLeft col-6 d-flex flex-column align-items-center justify-content-center ">
-            <div class="fourthPartLeftBox col-8 m-5 p5">
+    <div class="fourthPart d-flex flex-lg-row flex-column-reverse">
+        <div class="fourthPartLeft col-lg-6 col-12 d-flex flex-column align-items-center justify-content-center ">
+            <div class="fourthPartLeftBox col-lg-8 col-11 m-lg-5 ">
                 <h2>Unsere Spezialität besteht aus unseren Kaltwassersätzen mit integrierter Freikühleinheit.</h2>
                 <p>Doppelkanal Mikrochannel Wärmetauscher kühlen das Prozesswasser energiesparend über ambiente
                     Umgebungsluft.
@@ -137,16 +141,19 @@
                 </p></div>
 
         </div>
-        <div class="fourthPartRight col-6">
+        <div class="fourthPartRight col-lg-6 d-lg-block d-none">
             <img src="img/forthPhoto.png" alt="fourth photo">
         </div>
+        <div class="fourthPartRight col-12 d-lg-none d-block">
+            <img src="img/MobileLine.png" alt="fourth photo">
+        </div>
     </div>
-    <div class="fifthPart pt-5 d-flex flex-column align-items-center justify-content-center">
-        <div class="fifthPartTitle pb-4 d-flex justify-content-center">
+    <div class="fifthPart pt-lg-5 pt-2 d-flex flex-column align-items-center justify-content-center">
+        <div class="fifthPartTitle pb-lg-4 pb-2 d-flex justify-content-center">
             <h2>IHRE VORTEILE</h2>
         </div>
-        <div class="fifthPartCards d-flex justify-content-center gap-2 flex-wrap col-12">
-            <div class="fifthPartCard col-3 d-flex align-items-center p-4">
+        <div class="fifthPartCards d-flex flex-lg-row flex-column justify-content-center gap-2 flex-wrap col-lg-12 col-11">
+            <div class="fifthPartCard col-lg-3 col-12 d-flex align-items-center p-4">
                 <div class="fifthPartCardLeft col-4">
                     <img src="img/Card1.png" alt="card1">
                 </div>
@@ -154,7 +161,7 @@
                     <p>Geringe Stellfläche</p>
                 </div>
             </div>
-            <div class="fifthPartCard col-3 d-flex align-items-center p-4">
+            <div class="fifthPartCard col-lg-3 col-12 d-flex align-items-center p-4">
                 <div class="fifthPartCardLeft col-4">
                     <img src="img/card2.png" alt="card2">
                 </div>
@@ -162,7 +169,7 @@
                     <p>Mit und ohne integrierter Freikühlung</p>
                 </div>
             </div>
-            <div class="fifthPartCard col-3 d-flex align-items-center p-4">
+            <div class="fifthPartCard col-lg-3 col-12 d-flex align-items-center p-4">
                 <div class="fifthPartCardLeft col-4">
                     <img src="img/card3.png" alt="card3">
                 </div>
@@ -170,7 +177,7 @@
                     <p>Für Außentemperaturen bis +55°C</p>
                 </div>
             </div>
-            <div class="fifthPartCard col-3 d-flex align-items-center p-4">
+            <div class="fifthPartCard col-lg-3 col-12 d-flex align-items-center p-4">
                 <div class="fifthPartCardLeft col-4">
                     <img src="img/card4.png" alt="card4">
                 </div>
@@ -178,7 +185,7 @@
                     <p>Für Außen- und Innenaufstellung erhältliche</p>
                 </div>
             </div>
-            <div class="fifthPartCard col-3 d-flex align-items-center p-4">
+            <div class="fifthPartCard col-lg-3 col-12 d-flex align-items-center p-4">
                 <div class="fifthPartCardLeft col-4">
                     <img src="img/card5.png" alt="card5">
                 </div>
@@ -186,7 +193,7 @@
                     <p>Betriebsbereit bei Anlieferung</p>
                 </div>
             </div>
-            <div class="fifthPartCard col-3 d-flex align-items-center p-4">
+            <div class="fifthPartCard col-lg-3 col-12 d-flex align-items-center p-4">
                 <div class="fifthPartCardLeft col-4">
                     <img src="img/card6.png" alt="card6">
                 </div>
@@ -194,7 +201,7 @@
                     <p>Automatische Freikühlschaltung für verringerten Energieverbrauch</p>
                 </div>
             </div>
-            <div class="fifthPartCard col-3 d-flex align-items-center p-4">
+            <div class="fifthPartCard col-lg-3 col-12 d-flex align-items-center p-4">
                 <div class="fifthPartCardLeft col-4">
                     <img src="img/card7.png" alt="card7">
                 </div>
@@ -202,7 +209,7 @@
                     <p>Robustes Gehäuse für Außenaufstellung</p>
                 </div>
             </div>
-            <div class="fifthPartCard col-3 d-flex align-items-center p-4">
+            <div class="fifthPartCard col-lg-3 col-12 d-flex align-items-center p-4">
                 <div class="fifthPartCardLeft col-4">
                     <img src="img/card8.png" alt="card8">
                 </div>
@@ -210,7 +217,7 @@
                     <p>Geringe Schallemissionen</p>
                 </div>
             </div>
-            <div class="fifthPartCard col-3 d-flex align-items-center p-4">
+            <div class="fifthPartCard col-lg-3 col-12 d-flex align-items-center p-4">
                 <div class="fifthPartCardLeft col-4">
                     <img src="img/card9.png" alt="card9">
                 </div>
@@ -218,7 +225,7 @@
                     <p>Wetterfest und Langlebig</p>
                 </div>
             </div>
-            <div class="fifthPartCard col-3 d-flex align-items-center p-4">
+            <div class="fifthPartCard col-lg-3 col-12 d-flex align-items-center p-4">
                 <div class="fifthPartCardLeft col-4">
                     <img src="img/card10.png" alt="card10">
                 </div>
@@ -228,12 +235,12 @@
             </div>
         </div>
     </div>
-    <div class="sixthPart col-9 m-5 d-flex flex-column align-items-center">
+    <div class="sixthPart col-lg-9 col-11 m-lg-5 m-2 d-flex flex-column align-items-center">
         <div class="sixthPartTitle m-3 p-4 d-flex justify-content-center">
             <h2>HAUPTMERKMALE</h2>
         </div>
-        <div class="sixthPartBottom d-flex p-5 justify-content-between">
-            <div class="sixthPartLeft col-5 d-flex flex-column align-items-start">
+        <div class="sixthPartBottom d-flex flex-lg-row flex-column p-lg-5 p-2 justify-content-between">
+            <div class="sixthPartLeft col-lg-5 col-12 d-flex flex-column align-items-start">
                 <ul>
                     <li>25 verschiedene Modelle von <span>6 kW bis 600</span> kW Kühlleistung</li>
                     <li>Volumenströme von <span>1,5 m³/h bis 140 m³/h</span></li>
@@ -249,7 +256,7 @@
                 </ul>
 
             </div>
-            <div class="sixthPartRight col-5 d-flex flex-column align-items-start">
+            <div class="sixthPartRight col-lg-5 col-12 d-flex flex-column align-items-start">
                 <ul>
                     <li><span>Scroll, Multiscroll und Schraubenkompressoren </span>(optional
                         mit Frequenzumrichter) erhältlich
@@ -271,11 +278,11 @@
             </div>
         </div>
     </div>
-    <div class="seventhPart col-9 m-5 d-flex flex-column align-items-center">
+    <div class="seventhPart col-lg-9 col-11 m-lg-5 m-1 d-flex flex-column align-items-center">
         <div class="seventhPartTitle m-3 p-4 d-flex justify-content-center">
             <h2>BILDER</h2>
         </div>
-        <div class="seventhPartBottom">
+        <div class="seventhPartBottom col-lg-12 col-10">
             <div id="carouselWithIndicators" class="carousel slide" data-bs-ride="carousel">
                 <ol class="carousel-indicators">
                     <li data-bs-target="#carouselWithIndicators" data-bs-slide-to="0" class="active"></li>
@@ -304,26 +311,26 @@
             </div>
         </div>
     </div>
-    <div class="eightPart col-12 d-flex flex-column align-items-center justify-content-center">
-        <div class="eightPartTitle pb-4 d-flex justify-content-center">
+    <div class="eightPart col-lg-12 col-11 d-flex flex-column align-items-center justify-content-center">
+        <div class="eightPartTitle pb-lg-4 p-3 d-flex justify-content-center">
             <h2>BESUCHER DIESER SEITE SUCHTEN AUCH OFT NACH:</h2>
         </div>
-        <div class="eightPartButtons d-flex justify-content-center col-9">
-            <div class="buttons d-flex justify-content-center flex-wrap gap-2 col-12">
-                <button type="button" class="btn btn-primary col-3 ">GLYKOLWANNEN</button>
-                <button type="button" class="btn btn-primary col-3 ">WASSERAUFBEREITUNG</button>
-                <button type="button" class="btn btn-primary col-3 ">ROHRLEITUNGSBAU</button>
-                <button type="button" class="btn btn-primary col-3 ">Wärmemengenmessungen</button>
-                <button type="button" class="btn btn-primary col-3 ">ANLAGELEASING</button>
+        <div class="eightPartButtons d-flex flex-lg-row flex-column justify-content-center col-lg-9 col-11">
+            <div class="buttons d-flex flex-lg-row flex-column justify-content-center flex-wrap gap-2 col-12">
+                <button type="button" class="btn btn-primary col-lg-3 col-12">GLYKOLWANNEN</button>
+                <button type="button" class="btn btn-primary col-lg-3 col-12">WASSERAUFBEREITUNG</button>
+                <button type="button" class="btn btn-primary col-lg-3 col-12">ROHRLEITUNGSBAU</button>
+                <button type="button" class="btn btn-primary col-lg-3 col-12">Wärmemengenmessungen</button>
+                <button type="button" class="btn btn-primary col-lg-3 col-12">ANLAGELEASING</button>
             </div>
         </div>
     </div>
     <div class="footer">
-        <div class="footerTop d-flex justify-content-between mt-5 m-3 pt-5 pb-5">
-            <div class="left d-flex justify-content-center align-items-center col-4">
+        <div class="footerTop d-flex flex-lg-row flex-column justify-content-between m-2 p-2 mt-lg-5 m-lg-3 pt-lg-5 pb-lg-5">
+            <div class="left d-flex justify-content-center align-items-center col-lg-4 col-12">
                 <h2>Jetzt Termin vereinbaren!</h2>
             </div>
-            <div class="center d-flex flex-column gap-2 align-items-start col-3">
+            <div class="center d-flex flex-column gap-lg-2 justify-content-center align-items-lg-start align-items-center col-lg-3 col-12 p-5 p-lg-0 m-2 m-lg-0">
                 <p>Gerne stehen wir Ihnen für eine individuelle Beratung telefonisch und vor Ort zur Verfügung und
                     freuen
                     uns über Ihre Kontaktaufnahme. Sprechen Sie uns an!
@@ -333,27 +340,27 @@
                 </p>
                 <button type="button" class="btn btn-primary">Kontakt</button>
             </div>
-            <div class="right d-flex justify-content-center align-items-center col-3">
+            <div class="right d-flex justify-content-center align-items-center col-lg-3 col-12">
                 <img src="img/logo.png" alt="logo">
             </div>
         </div>
-        <div class="footerBottom d-flex justify-content-between col-12">
-            <div class="box d-flex flex-column col-3 ps-2">
+        <div class="footerBottom d-flex flex-lg-row flex-column justify-content-between col-12">
+            <div class="box d-flex flex-column col-lg-3 col-12 ps-lg-2 ps-3">
                 <h3>Elsässer Kältetechnik</h3>
                 <span>Königsallee 14</span>
                 <span>40212 Düsseldorf</span>
             </div>
-            <div class="box d-flex flex-column col-3 ps-2">
+            <div class="box d-flex flex-column col-lg-3 col-12 ps-lg-2 ps-3">
                 <h3>Kontakt</h3>
                 <span>Telefon: +49 (0) 211 9232 3052</span>
                     <span>   E-Mail: info@elsasser-technik.de</span>
             </div>
-            <div class="box d-flex flex-column col-3 ps-5" >
+            <div class="box d-flex flex-column col-lg-3 col-12 ps-lg-5 ps-3" >
                 <h3>Shortlinks</h3>
                 <span>Kontakt</span>
                  <span>   Rückruf vereinbaren</span>
             </div>
-            <div class="box d-flex flex-column col-3 justify-content-end align-items-center">
+            <div class="box d-block d-lg-flex flex-column col-lg-3 col-12 justify-content-end align-items-center ps-3">
                 <h3>  </h3>
                 <span>Impressum</span>
                    <span> Datenschut</span>

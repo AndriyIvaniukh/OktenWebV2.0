@@ -1,0 +1,14 @@
+@media screen and (max-width: 375px){
+    .firstPartLeft h2{
+        margin-bottom: 40px;
+
+        font-style: normal;
+        font-weight: bold;
+        font-size: 34px;
+        line-height: 40px;
+        color: #1652AC;
+    }
+
+
+
+}
