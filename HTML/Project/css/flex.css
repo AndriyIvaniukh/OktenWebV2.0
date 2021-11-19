@@ -1,0 +1,11 @@
+.dFlex{
+    display: flex;
+}
+
+.fDirection_Column{
+    flex-direction: column;
+}
+
+.fDirection_Row{
+    flex-direction: row;
+}

@@ -1,0 +1,41 @@
+
+.topNav{
+    height: 36px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.leftParts{
+    column-gap: 45px;
+}
+
+.rightParts{
+    column-gap: 30px;
+}
+
+.leftParts p, .rightParts p{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #FFFFFF;
+}
+
+.leftPartsPart1 img{
+    position: relative;
+    top: -2px;
+}
+
+.leftPartsPart3 img, .leftPartsPart2 img{
+    padding-left: 7px;
+    padding-top: 4px;
+    height: 6px;
+    width: 10px;
+
+}
+
+.middleNav{
+    justify-content: space-between;
+}
