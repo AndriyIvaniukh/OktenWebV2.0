@@ -1,10 +1,10 @@
 // - Створити функцію конструктор для об'єктів User з полями id, name, surname , email, phone
 function User(id, name, surname, email, phone) {
-    this.id = id,
-        this.name = name,
-        this.surname = surname,
-        this.email = email,
-        this.phone = phone
+    this.id = id;
+    this.name = name;
+    this.surname = surname;
+    this.email = email;
+    this.phone = phone;
 }
 
 // створити пустий масив, наповнити його 10 об'єктами new User(....)
@@ -48,7 +48,7 @@ class Client {
 
 let arrClient = [
     new Client(1, 'Vasl', 'ASdaf', 'dasf@gmail.com', 213432512, ['qwdr', 'werwe', 'werw', 'ewrr2w']),
-    new Client(2, 'Petro', 'asfasf', 'dasf@gmail.com', 213432512, ['qwdr', 'werwe', 'werw', '234rw', 'werwer','2342rw']),
+    new Client(2, 'Petro', 'asfasf', 'dasf@gmail.com', 213432512, ['qwdr', 'werwe', 'werw', '234rw', 'werwer', '2342rw']),
     new Client(3, 'Taras', 'sdgsrgv', 'dasf@gmail.com', 213432512, ['qwdr', 'werwe']),
     new Client(8, 'Oleh', 'wqrfewf', 'dasf@gmail.com', 213432512, ['qwdr']),
     new Client(5, 'Serhii', '3qrfwef', 'dasf@gmail.com', 21343251, ['qwdr', 'werwe', 'werw', 'werwer', 'werwer', 'werwer', 'werwer', 'werwer']),
@@ -62,5 +62,5 @@ let arrClient = [
 // створити пустий масив, наповнити його 10 об'єктами Client
 // - Взяти масив (Client [] з попереднього завдання).Відсортувати його по кількості товарів в полі order по зростанню. (sort)
 
-arrClient.sort((a,b)=>a.order.length-b.order.length);
+arrClient.sort((a, b) => a.order.length - b.order.length);
 console.log(arrClient);
