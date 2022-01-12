@@ -5,11 +5,15 @@ const Comments = () => {
 
     const [comments, setComments] = useState([]);
 
-    useEffect(()=>{
+    useEffect(() => {
         fetch('https://jsonplaceholder.typicode.com/comments')
-            .then((resp) => {return resp.json()})
-            .then((comments) => {setComments(comments)});
-    },[])
+            .then((resp) => {
+                return resp.json()
+            })
+            .then((comments) => {
+                setComments(comments)
+            });
+    }, [])
 
     return (
         <div>
