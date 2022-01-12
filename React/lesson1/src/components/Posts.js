@@ -1,8 +1,9 @@
 import React, {useEffect, useState} from 'react';
+import Post from "./Post";
 
 const Posts = () => {
 
-    let [posts, setPosts] =useState([]);
+    const [posts, setPosts] =useState([]);
 
     useEffect(() => {
         fetch('https://jsonplaceholder.typicode.com/posts')
@@ -12,11 +13,7 @@ const Posts = () => {
 
     return (
         <div>
-            {posts.filter(posts=> posts.id<5).map(posts => {return <>
-                    <h6>{posts.title}</h6>
-                    <p>{posts.body}</p>
-                </>}
-            )}
+            {posts.filter(posts=> posts.id<5).map(post => <Post props={post}/>)}
         </div>
     );
 };
