@@ -6,10 +6,10 @@ import {userService} from "../../services/user.service";
 const UserDetails = () => {
 
     const params = useParams();
-    const [userDetails, setUSerDetails] = useState({});
+    const [userDetails, setUserDetails] = useState({});
 
     useEffect(() => {
-        userService.getById(params.id).then(value => setUSerDetails([...value]));
+        userService.getById(params.id).then(value => setUserDetails(value));
     }, [params.id])
 
     return (
