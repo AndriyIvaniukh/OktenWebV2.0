@@ -1,12 +1,21 @@
 import React from 'react';
 import {Link} from "react-router-dom";
 
+import "./post.css";
+
 const Post = ({post}) => {
 
     return (
-        <div>
-            {post.id}. {post.title}
-            <Link to={'/posts/' + post.id}>Details</Link>
+        <div className={'post'}>
+            <div className="info">
+                {post.id}. {post.title}
+            </div>
+
+            <div className="detailsButton">
+                <Link to={`${post.id}`}>
+                    <button>Details</button>
+                </Link>
+            </div>
         </div>
     );
 };

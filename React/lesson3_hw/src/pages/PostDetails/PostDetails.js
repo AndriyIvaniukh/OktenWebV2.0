@@ -10,7 +10,6 @@ const PostDetails = () => {
 
     useEffect(()=>{
         postService.getById(params.id).then(details => setPostDetails(details));
-        console.log(params.id)
     },[params.id])
 
     return (
@@ -18,8 +17,8 @@ const PostDetails = () => {
             <p>User id : {postDetails.userId}</p>
             <p>Title: {postDetails.title}</p>
             <p>Body: {postDetails.body}</p>
-            <Link to={`/posts/id/comments`}><button>Comments</button></Link>
-            {/*<Outlet/>*/}
+            <Link to={`comments`}><button>Comments</button></Link>
+            <Outlet/>
         </div>
 
 

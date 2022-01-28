@@ -1,5 +1,5 @@
 import {Routes, Route, Link} from "react-router-dom";
-
+import React from 'react';
 
 import UsersPage from "./pages/UsersPage/usersPage";
 import PostsPage from "./pages/PostsPage/postsPage";
