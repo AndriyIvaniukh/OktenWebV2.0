@@ -1,0 +1,10 @@
+.usersPage{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    column-gap: 80px;
+}
+
+.users{
+    width: 600px;
+}
