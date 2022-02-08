@@ -5,7 +5,7 @@ import reducer from "./reducerFunction";
 
 const App = () => {
 
-const [state, dispatch] = useReducer(reducer, {counter1: 0, counter2: 0, counter3: 0});
+const [state, dispatch] = useReducer (reducer, {counter1: 0, counter2: 0, counter3: 0});
 
     return (
         <div>
